@@ -1191,7 +1191,6 @@ table {
   .personal_information {
     flex: 0 0 100%;
     max-width: 100%;
-    border-right: 0;
   }
 
   .personal_experience {
