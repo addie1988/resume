@@ -849,7 +849,7 @@ table {
 }
 
 .Code_content ul li {
-  margin: 14px;
+  margin: 14px 14px 0 0;
   line-height: 2;
   width: 28%;
 }

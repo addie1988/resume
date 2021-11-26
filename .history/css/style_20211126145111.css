@@ -849,7 +849,7 @@ table {
 }
 
 .Code_content ul li {
-  margin: 14px;
+  margin: 14px 14px 0 0;
   line-height: 2;
   width: 28%;
 }
@@ -1223,10 +1223,8 @@ table {
     display: block;
   }
 
-  .work_experience_content ul li span {
-    display: block;
-  }
-  
   .work_experience_content ul li span section {
+    display: block;
     padding-left: 0;
   }
+}

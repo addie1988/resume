@@ -138,7 +138,6 @@ table {
   --color: white;
   --title_h1: 30px;
   --margin_Segmentation: 80px 0 0 0;
-  --padding_min: 0 40px;
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------- */
@@ -599,41 +598,22 @@ table {
   position: var(--position);
 }
 
-.cell_phone span {
- display: flex;
- justify-content: center;
- align-items: center;
- position: var(--position);
-}
-
-.cell_phone span img {
-  display: inline-block;
-  padding: 4px;
-  transition: 1s ease-in-out;
-  -webkit-transition: 1s ease-in-out;
-  -moz-transition: 1s ease-in-out;
-  -ms-transition: 1s ease-in-out;
-  -o-transition: 1s ease-in-out;
-}
-
-.cell_phone span:hover::before {
+.cell_phone:hover::before {
   width: calc(100% - 2px);
   height: calc(100% - 2px);
 }
 
-.cell_phone span:hover::after {
+.cell_phone:hover::after {
   width: calc(100% - 2px);
   height: calc(100% - 2px);
 }
 
-.cell_phone span::before {
+.cell_phone::before {
   content: "";
   width: 10px;
   height: 10px;
   display: inline-block;
   position: absolute;
-  top: 0;
-  left: 0;
   border-top: 2px solid white;
   border-left: 2px solid white;
   transition: 1s ease-in-out;
@@ -643,7 +623,7 @@ table {
   -o-transition: 1s ease-in-out;
 }
 
-.cell_phone span::after {
+.cell_phone::after {
   content: "";
   width: 10px;
   height: 10px;
@@ -653,6 +633,22 @@ table {
   right: 0;
   border-right: 2px solid white;
   border-bottom: 2px solid white;
+  transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -ms-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
+}
+
+.cell_phone span {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.cell_phone span img {
+  display: inline-block;
+  padding: 4px;
   transition: 1s ease-in-out;
   -webkit-transition: 1s ease-in-out;
   -moz-transition: 1s ease-in-out;
@@ -849,9 +845,9 @@ table {
 }
 
 .Code_content ul li {
-  margin: 14px;
+  margin: 14px 14px 0 0;
   line-height: 2;
-  width: 28%;
+  width: 22%;
 }
 
 .Code_content ul li .Code_content_area {
@@ -1136,14 +1132,8 @@ table {
 .work_experience_content ul li span {
   padding-left: 20px;
   align-items: center;
-  display: flex;
   border-left: 1px dashed white;
 }
-
-.work_experience_content ul li span  section {
-  padding-left: 30px;
-}
-
 .work_experience_content ul li:hover span section {
   color: white;
 }
@@ -1153,30 +1143,8 @@ table {
 }
 
 @media screen and (max-width: 900px) {
-  .personal {
-    background-size: cover;
-  }
-
-  .resume_title {
-    top: 0;
-    margin: 30px 0;
-  }
-
-  .resume_title_content::before {
-    top: 11px;
-  }
-
-  .resume_title_content::after {
-    top: 11px;
-  }
-
   .resume_title_content h1 {
     font-size: 17px;
-  }
-
-  .name {
-    left: 0;
-    width: 82%;
   }
 
   .resume {
@@ -1197,36 +1165,4 @@ table {
     flex: 0 0 100%;
     max-width: 100%;
   }
-
-  .information {
-    padding: var(--padding_min);
-  }
-
-  .cell_phone {
-    padding: var(--padding_min);
-  }
-
-  .tool {
-    padding: var(--padding_min);
-    margin: var(--margin_Segmentation);
-  }
-
-  .Code_content {
-     padding: var(--padding_min);
-  }
-
-  .work_experience_content {
-    padding: var(--padding_min);
-  }
-
-  .work_experience_content ul li {
-    display: block;
-  }
-
-  .work_experience_content ul li span {
-    display: block;
-  }
-  
-  .work_experience_content ul li span section {
-    padding-left: 0;
-  }
+}

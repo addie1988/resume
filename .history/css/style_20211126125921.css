@@ -138,7 +138,6 @@ table {
   --color: white;
   --title_h1: 30px;
   --margin_Segmentation: 80px 0 0 0;
-  --padding_min: 0 40px;
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------- */
@@ -632,8 +631,6 @@ table {
   height: 10px;
   display: inline-block;
   position: absolute;
-  top: 0;
-  left: 0;
   border-top: 2px solid white;
   border-left: 2px solid white;
   transition: 1s ease-in-out;
@@ -849,9 +846,9 @@ table {
 }
 
 .Code_content ul li {
-  margin: 14px;
+  margin: 14px 14px 0 0;
   line-height: 2;
-  width: 28%;
+  width: 22%;
 }
 
 .Code_content ul li .Code_content_area {
@@ -1136,14 +1133,8 @@ table {
 .work_experience_content ul li span {
   padding-left: 20px;
   align-items: center;
-  display: flex;
   border-left: 1px dashed white;
 }
-
-.work_experience_content ul li span  section {
-  padding-left: 30px;
-}
-
 .work_experience_content ul li:hover span section {
   color: white;
 }
@@ -1153,13 +1144,9 @@ table {
 }
 
 @media screen and (max-width: 900px) {
-  .personal {
-    background-size: cover;
-  }
-
   .resume_title {
     top: 0;
-    margin: 30px 0;
+    margin: 20px 0;
   }
 
   .resume_title_content::before {
@@ -1176,7 +1163,7 @@ table {
 
   .name {
     left: 0;
-    width: 82%;
+    width: 90%;
   }
 
   .resume {
@@ -1199,34 +1186,10 @@ table {
   }
 
   .information {
-    padding: var(--padding_min);
+    padding: 0 40px;
   }
 
   .cell_phone {
-    padding: var(--padding_min);
+    padding: 0 40px;
   }
-
-  .tool {
-    padding: var(--padding_min);
-    margin: var(--margin_Segmentation);
-  }
-
-  .Code_content {
-     padding: var(--padding_min);
-  }
-
-  .work_experience_content {
-    padding: var(--padding_min);
-  }
-
-  .work_experience_content ul li {
-    display: block;
-  }
-
-  .work_experience_content ul li span {
-    display: block;
-  }
-  
-  .work_experience_content ul li span section {
-    padding-left: 0;
-  }
+}

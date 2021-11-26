@@ -849,9 +849,9 @@ table {
 }
 
 .Code_content ul li {
-  margin: 14px;
+  margin: 14px 14px 0 0;
   line-height: 2;
-  width: 28%;
+  width: 22%;
 }
 
 .Code_content ul li .Code_content_area {
@@ -1136,14 +1136,8 @@ table {
 .work_experience_content ul li span {
   padding-left: 20px;
   align-items: center;
-  display: flex;
   border-left: 1px dashed white;
 }
-
-.work_experience_content ul li span  section {
-  padding-left: 30px;
-}
-
 .work_experience_content ul li:hover span section {
   color: white;
 }
@@ -1154,12 +1148,12 @@ table {
 
 @media screen and (max-width: 900px) {
   .personal {
-    background-size: cover;
+    background-size: inherit;
   }
 
   .resume_title {
     top: 0;
-    margin: 30px 0;
+    margin: 20px 0;
   }
 
   .resume_title_content::before {
@@ -1176,7 +1170,7 @@ table {
 
   .name {
     left: 0;
-    width: 82%;
+    width: 86%;
   }
 
   .resume {
@@ -1222,11 +1216,4 @@ table {
   .work_experience_content ul li {
     display: block;
   }
-
-  .work_experience_content ul li span {
-    display: block;
-  }
-  
-  .work_experience_content ul li span section {
-    padding-left: 0;
-  }
+}
