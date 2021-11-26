@@ -749,7 +749,7 @@ table {
 }
 
 .tool_content ul li:hover span::before {
-  width: 100%;
+  width: 90%;
 }
 
 .tool_content ul li:nth-child(1):hover span::before {
@@ -778,7 +778,7 @@ table {
 
 .tool_content ul li span::after {
   content: "";
-  width: 100%;
+  width: 90%;
   height: 20px;
   display: inline-block;
   position: absolute;
@@ -1230,9 +1230,5 @@ table {
   
   .work_experience_content ul li span section {
     padding-left: 0;
-  }
-
-  .Code_content ul li {
-    width: 30%;
   }
 }
