@@ -890,7 +890,7 @@ table {
   content: "";
   width: 50px;
   height: 50px;
-  display: none;
+  opacity: 0;
   position: absolute;
   top: 4px;
   left: 4px;
@@ -979,7 +979,7 @@ table {
 }
 
 .Code_content ul li:hover .chart span::before {
-  display: block;
+  opacity: 1;
 }
 
 @keyframes chart_move {

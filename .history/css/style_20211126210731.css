@@ -888,9 +888,8 @@ table {
 
 .Code_content_area_content .chart span::before {
   content: "";
-  width: 50px;
-  height: 50px;
-  display: none;
+  width: 0;
+  height: 0;
   position: absolute;
   top: 4px;
   left: 4px;
@@ -906,11 +905,6 @@ table {
   -o-border-radius: 10px solid #f5c51d;
   animation: chart_move 2s ease-out;
   -webkit-animation: chart_move 2s ease-out;
-  transition: 1s ease-in-out;
-  -webkit-transition: 1s ease-in-out;
-  -moz-transition: 1s ease-in-out;
-  -ms-transition: 1s ease-in-out;
-  -o-transition: 1s ease-in-out;
 }
 
 .Code_content
@@ -924,6 +918,11 @@ table {
   border-left: 10px solid white;
   border-right: 10px solid white;
   border-bottom: 10px solid white;
+  transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -ms-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
 }
 
 .Code_content
@@ -937,6 +936,11 @@ table {
   border-left: 10px solid black;
   border-right: 10px solid black;
   border-bottom: 10px solid white;
+  transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -ms-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
 }
 
 .Code_content
@@ -950,6 +954,11 @@ table {
   border-left: 10px solid black;
   border-right: 10px solid black;
   border-bottom: 10px solid white;
+  transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -ms-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
 }
 
 .Code_content
@@ -963,6 +972,11 @@ table {
   border-left: 10px solid white;
   border-right: 10px solid white;
   border-bottom: 10px solid white;
+  transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -ms-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
 }
 
 .Code_content
@@ -976,6 +990,11 @@ table {
   border-left: 10px solid white;
   border-right: 10px solid white;
   border-bottom: 10px solid white;
+  transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -ms-transition: 1s ease-in-out;
+  -o-transition: 1s ease-in-out;
 }
 
 .Code_content ul li:hover .chart span::before {

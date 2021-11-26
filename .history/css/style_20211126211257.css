@@ -906,11 +906,11 @@ table {
   -o-border-radius: 10px solid #f5c51d;
   animation: chart_move 2s ease-out;
   -webkit-animation: chart_move 2s ease-out;
-  transition: 1s ease-in-out;
-  -webkit-transition: 1s ease-in-out;
-  -moz-transition: 1s ease-in-out;
-  -ms-transition: 1s ease-in-out;
-  -o-transition: 1s ease-in-out;
+  transition: .2s ease-in-out;
+  -webkit-transition: .2s ease-in-out;
+  -moz-transition: .2s ease-in-out;
+  -ms-transition: .2s ease-in-out;
+  -o-transition: .2s ease-in-out;
 }
 
 .Code_content
