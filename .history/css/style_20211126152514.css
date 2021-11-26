@@ -600,10 +600,10 @@ table {
 }
 
 .cell_phone span {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: var(--position);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: var(--position);
 }
 
 .cell_phone span img {
@@ -1140,7 +1140,7 @@ table {
   border-left: 1px dashed white;
 }
 
-.work_experience_content ul li span section {
+.work_experience_content ul li span  section {
   padding-left: 30px;
 }
 
@@ -1213,11 +1213,7 @@ table {
   }
 
   .Code_content {
-    padding: var(--padding_min);
-  }
-
-  .Code_content ul li {
-    width: 30%;
+     padding: var(--padding_min);
   }
 
   .work_experience_content {
@@ -1231,9 +1227,13 @@ table {
   .work_experience_content ul li span {
     display: block;
   }
-
+  
   .work_experience_content ul li span section {
     padding-left: 0;
+  }
+
+  .Code_content ul li {
+    width: 30%;
   }
 
   .work_experience_content ul li:hover .work_experience_content_title {
@@ -1242,5 +1242,5 @@ table {
     -moz-border-radius: 0;
     -ms-border-radius: 0;
     -o-border-radius: 0;
-  }
+}
 }

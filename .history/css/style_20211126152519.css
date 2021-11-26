@@ -1216,10 +1216,6 @@ table {
     padding: var(--padding_min);
   }
 
-  .Code_content ul li {
-    width: 30%;
-  }
-
   .work_experience_content {
     padding: var(--padding_min);
   }
@@ -1234,6 +1230,10 @@ table {
 
   .work_experience_content ul li span section {
     padding-left: 0;
+  }
+
+  .Code_content ul li {
+    width: 30%;
   }
 
   .work_experience_content ul li:hover .work_experience_content_title {
