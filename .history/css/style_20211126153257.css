@@ -1238,5 +1238,9 @@ table {
 
   .work_experience_content ul li:hover .work_experience_content_title {
     border-right: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
   }
 }
