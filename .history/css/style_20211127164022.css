@@ -1226,25 +1226,12 @@ table {
     padding: var(--padding_min);
   }
 
-  .Code {
-    padding-left: 0;
-  }
-
   .Code_content {
     padding: var(--padding_min);
   }
 
   .Code_content ul li {
     width: 44%;
-  }
-
-
-  .Code_content_area_content .chart span::before {
-    display: block;
-  }
-
-  .work_experience {
-    padding-left: 0;
   }
 
   .work_experience_content {
@@ -1295,5 +1282,9 @@ table {
 
   .tool_content ul li:nth-child(6) span::before {
     width: 10%;
+  }
+
+  .Code_content_area_content .chart span::before {
+    display: block;
   }
 }

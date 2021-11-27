@@ -570,7 +570,7 @@ table {
 .work_contwnt ul li {
   margin-right: 10px;
   margin: 10px;
-  padding: 8px 20px;
+  padding: 8px 34px;
   border: 2px solid white;
   border-radius: 40px;
   -webkit-border-radius: 40px;
@@ -602,7 +602,6 @@ table {
   margin-top: 20px;
   display: inline-block;
   position: var(--position);
-  padding-right: var(--padding-right);
 }
 
 .cell_phone span {
@@ -672,7 +671,6 @@ table {
 /* tool */
 .tool {
   position: var(--position);
-  padding-left: var(--padding-left);
 }
 
 .tool_contwnt {
@@ -802,7 +800,6 @@ table {
 /* Code */
 .Code {
   position: var(--position);
-  padding-left: var(--padding-left);
 }
 
 .Code_content {
@@ -1038,7 +1035,6 @@ table {
 /* work_experience */
 .work_experience {
   position: var(--position);
-  padding-left: var(--padding-left);
 }
 
 .work_experience_content {
@@ -1226,25 +1222,12 @@ table {
     padding: var(--padding_min);
   }
 
-  .Code {
-    padding-left: 0;
-  }
-
   .Code_content {
     padding: var(--padding_min);
   }
 
   .Code_content ul li {
     width: 44%;
-  }
-
-
-  .Code_content_area_content .chart span::before {
-    display: block;
-  }
-
-  .work_experience {
-    padding-left: 0;
   }
 
   .work_experience_content {
@@ -1295,5 +1278,9 @@ table {
 
   .tool_content ul li:nth-child(6) span::before {
     width: 10%;
+  }
+
+  .Code_content_area_content .chart span::before {
+    display: block;
   }
 }

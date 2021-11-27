@@ -139,8 +139,6 @@ table {
   --title_h1: 30px;
   --margin_Segmentation: 40px 0 0 0;
   --padding_min: 0 20px;
-  --padding-right: 40px;
-  --padding-left: 40px;
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------- */
@@ -400,12 +398,12 @@ table {
 
 /* main */
 .main {
-  position: var(--position);
+  display: flex;
+  justify-content: center;
 }
 
 .main_content {
-  display: flex;
-  justify-content: center;
+  display: inline-block;
 }
 /* personal_information > 個人資訊 */
 
@@ -415,13 +413,13 @@ table {
   max-width: 50%;
   border-right: 2px solid white;
   border-style: dashed;
+  padding: 0 40px 0 0;
   position: var(--position);
 }
 
 .personal_information_img {
   display: flex;
   justify-content: center;
-  padding-right: var(--padding-right);
 }
 
 .personal_information_img img {
@@ -433,10 +431,9 @@ table {
 .name {
   margin: 60px 0;
   position: var(--position);
-  left: -79px;
+  left: -59px;
   top: -60px;
   padding: 14px 0;
-  padding-right: var(--padding-right);
   background-color: black;
   display: flex;
   flex-wrap: wrap;
@@ -496,6 +493,7 @@ table {
 .personal_experience {
   flex: 0 0 50%;
   max-width: 50%;
+  padding: 0 0 0 40px;
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------- */
@@ -504,7 +502,6 @@ table {
 .information {
   position: var(--position);
   margin: var(--margin_Segmentation);
-  padding-right: var(--padding-right);
 }
 
 .information_content {
@@ -559,7 +556,6 @@ table {
 .work {
   position: var(--position);
   margin-top: 30px;
-  padding-right: var(--padding-right);
 }
 
 .work_contwnt ul {
@@ -570,7 +566,7 @@ table {
 .work_contwnt ul li {
   margin-right: 10px;
   margin: 10px;
-  padding: 8px 20px;
+  padding: 8px 34px;
   border: 2px solid white;
   border-radius: 40px;
   -webkit-border-radius: 40px;
@@ -602,7 +598,6 @@ table {
   margin-top: 20px;
   display: inline-block;
   position: var(--position);
-  padding-right: var(--padding-right);
 }
 
 .cell_phone span {
@@ -672,7 +667,6 @@ table {
 /* tool */
 .tool {
   position: var(--position);
-  padding-left: var(--padding-left);
 }
 
 .tool_contwnt {
@@ -802,7 +796,6 @@ table {
 /* Code */
 .Code {
   position: var(--position);
-  padding-left: var(--padding-left);
 }
 
 .Code_content {
@@ -1038,7 +1031,6 @@ table {
 /* work_experience */
 .work_experience {
   position: var(--position);
-  padding-left: var(--padding-left);
 }
 
 .work_experience_content {
@@ -1177,6 +1169,7 @@ table {
     margin: 30px;
   }
 
+
   .resume_title {
     top: 0;
     margin: 30px 0;
@@ -1194,7 +1187,7 @@ table {
     font-size: 17px;
   }
 
-  .main_content {
+  .main {
     flex-wrap: wrap;
   }
 
@@ -1226,25 +1219,12 @@ table {
     padding: var(--padding_min);
   }
 
-  .Code {
-    padding-left: 0;
-  }
-
   .Code_content {
     padding: var(--padding_min);
   }
 
   .Code_content ul li {
     width: 44%;
-  }
-
-
-  .Code_content_area_content .chart span::before {
-    display: block;
-  }
-
-  .work_experience {
-    padding-left: 0;
   }
 
   .work_experience_content {
@@ -1276,24 +1256,28 @@ table {
   .tool_content ul li:nth-child(1) span::before {
     width: 80%;
   }
-
+  
   .tool_content ul li:nth-child(2) span::before {
     width: 10%;
   }
-
+  
   .tool_content ul li:nth-child(3) span::before {
     width: 60%;
   }
-
+  
   .tool_content ul li:nth-child(4) span::before {
     width: 10%;
   }
-
+  
   .tool_content ul li:nth-child(5) span::before {
     width: 10%;
   }
-
+  
   .tool_content ul li:nth-child(6) span::before {
     width: 10%;
+  }
+
+  .Code_content_area_content .chart span::before {
+    display: block;
   }
 }
