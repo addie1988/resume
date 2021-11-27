@@ -138,7 +138,7 @@ table {
   --color: white;
   --title_h1: 30px;
   --margin_Segmentation: 40px 0 0 0;
-  --padding_min: 0 20px;
+  --padding_min: 0 40px;
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------- */
@@ -428,10 +428,11 @@ table {
 .name {
   margin: 60px 0;
   position: var(--position);
-  left: -39px;
+  left: -45px;
   top: -60px;
   padding: 14px 0;
   background-color: black;
+  border-left: 6px solid white;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -1031,7 +1032,7 @@ table {
 }
 
 .work_experience_content {
-  margin: 40px 0;
+  margin: var(--margin_Segmentation);
 }
 
 .work_experience_content h1 {
@@ -1093,11 +1094,11 @@ table {
 }
 
 .work_experience_content ul li:hover {
-  border-radius: 20px;
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  -ms-border-radius: 20px;
-  -o-border-radius: 20px;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
   animation: work_experience_content_move 1s infinite;
   -webkit-animation: work_experience_content_move 1s infinite;
 }
@@ -1241,33 +1242,5 @@ table {
 
   .work_experience_content ul li:hover .work_experience_content_title {
     border-right: 0;
-  }
-
-  .tool_content ul li:nth-child(1) span::before {
-    width: 80%;
-  }
-  
-  .tool_content ul li:nth-child(2) span::before {
-    width: 10%;
-  }
-  
-  .tool_content ul li:nth-child(3) span::before {
-    width: 60%;
-  }
-  
-  .tool_content ul li:nth-child(4) span::before {
-    width: 10%;
-  }
-  
-  .tool_content ul li:nth-child(5) span::before {
-    width: 10%;
-  }
-  
-  .tool_content ul li:nth-child(6) span::before {
-    width: 10%;
-  }
-
-  .Code_content_area_content .chart span::before {
-    display: block;
   }
 }
