@@ -149,8 +149,8 @@ table {
   align-items: center;
   background-size: cover;
   background-color: black;
-  border-left: 10px solid var(--background-color);
-  border-right: 10px solid var(--background-color);
+  border-left: 6px solid var(--background-color);
+  border-right: 6px solid var(--background-color);
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------- */
@@ -277,7 +277,7 @@ table {
 .resume {
   margin: 100px;
   padding: 80px;
-  max-width: 860px;
+  max-width: 900px;
   position: var(--position);
   z-index: 77777;
   background-color: var(--background-color);
@@ -410,7 +410,7 @@ table {
   max-width: 50%;
   border-right: 2px solid white;
   border-style: dashed;
-  margin: 0 40px;
+  margin: 0 40px 0 0;
   position: var(--position);
 }
 
@@ -428,7 +428,7 @@ table {
 .name {
   margin: 60px 0;
   position: var(--position);
-  left: -39px;
+  left: -59px;
   top: -60px;
   padding: 14px 0;
   background-color: black;
@@ -490,7 +490,6 @@ table {
 .personal_experience {
   flex: 0 0 50%;
   max-width: 50%;
-  margin: 0 40px;
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------- */
@@ -530,7 +529,7 @@ table {
   background-color: var(--background-color);
   position: absolute;
   top: 11px;
-  left: -14px;
+  left: -10px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1186,10 +1185,6 @@ table {
 
   .main {
     flex-wrap: wrap;
-  }
-
-  .personal_information_img {
-    padding: 0 20px;
   }
 
   .personal_information {

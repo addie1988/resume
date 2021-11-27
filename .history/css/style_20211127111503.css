@@ -530,7 +530,7 @@ table {
   background-color: var(--background-color);
   position: absolute;
   top: 11px;
-  left: -14px;
+  left: -10px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1186,10 +1186,6 @@ table {
 
   .main {
     flex-wrap: wrap;
-  }
-
-  .personal_information_img {
-    padding: 0 20px;
   }
 
   .personal_information {

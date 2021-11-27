@@ -149,8 +149,8 @@ table {
   align-items: center;
   background-size: cover;
   background-color: black;
-  border-left: 10px solid var(--background-color);
-  border-right: 10px solid var(--background-color);
+  border-left: 6px solid var(--background-color);
+  border-right: 6px solid var(--background-color);
 }
 
 /* ---------------------------------------------------------------------------------------------------------------------- */
@@ -277,7 +277,7 @@ table {
 .resume {
   margin: 100px;
   padding: 80px;
-  max-width: 860px;
+  max-width: 900px;
   position: var(--position);
   z-index: 77777;
   background-color: var(--background-color);
@@ -530,7 +530,7 @@ table {
   background-color: var(--background-color);
   position: absolute;
   top: 11px;
-  left: -14px;
+  left: -10px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1163,7 +1163,7 @@ table {
   .resume {
     width: 100%;
     padding: 0;
-    margin: 30px;
+    margin: 20px;
   }
 
 
@@ -1186,10 +1186,6 @@ table {
 
   .main {
     flex-wrap: wrap;
-  }
-
-  .personal_information_img {
-    padding: 0 20px;
   }
 
   .personal_information {

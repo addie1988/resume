@@ -538,6 +538,22 @@ table {
   -o-border-radius: 50%;
 }
 
+.information_content ul li:nth-child(1) p::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-color: var(--background-color);
+  position: absolute;
+  top: 11px;
+  right: -14px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
 .information_content ul li:nth-child(1) {
   margin: 40px 0;
 }
@@ -1172,6 +1188,10 @@ table {
     margin: 30px 0;
   }
 
+  .personal_information_img {
+    padding: 0 20px;
+  }
+
   .resume_title_content::before {
     top: 11px;
   }
@@ -1186,10 +1206,6 @@ table {
 
   .main {
     flex-wrap: wrap;
-  }
-
-  .personal_information_img {
-    padding: 0 20px;
   }
 
   .personal_information {

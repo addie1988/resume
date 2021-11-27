@@ -288,69 +288,6 @@ table {
   -o-border-radius: 20px;
 }
 
-/* resume_title */
-.resume_title {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  top: -40px;
-  transform: skewX(-18deg);
-  -webkit-transform: skewX(-18deg);
-  -moz-transform: skewX(-18deg);
-  -ms-transform: skewX(-18deg);
-  -o-transform: skewX(-18deg);
-}
-
-.resume_title_content {
-  text-align: center;
-  padding: 16px 60px;
-  background-color: black;
-  width: 20%;
-  display: inline-block;
-  position: var(--position);
-}
-
-.resume_title_content::before {
-  content: "";
-  width: 27px;
-  height: 27px;
-  display: inline-block;
-  position: absolute;
-  left: -10px;
-  top: 18px;
-  background-color: #f5c51d;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-}
-
-.resume_title_content::after {
-  content: "";
-  width: 27px;
-  height: 27px;
-  display: inline-block;
-  position: absolute;
-  right: -10px;
-  top: 18px;
-  background-color: var(--background-color);
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-}
-
-.resume_title_content h1 {
-  font-size: 30px;
-  color: white;
-}
-
-.resume_title_content h1::before {
-  content: "";
-}
-
 .resume_content {
   margin: 0 auto;
   width: 100%;
@@ -531,6 +468,22 @@ table {
   position: absolute;
   top: 11px;
   left: -14px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.information_content ul li:nth-child(1) p::after {
+  content: "";
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background-color: var(--background-color);
+  position: absolute;
+  top: 11px;
+  right: -14px;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1166,30 +1119,8 @@ table {
     margin: 30px;
   }
 
-
-  .resume_title {
-    top: 0;
-    margin: 30px 0;
-  }
-
-  .resume_title_content::before {
-    top: 11px;
-  }
-
-  .resume_title_content::after {
-    top: 11px;
-  }
-
-  .resume_title_content h1 {
-    font-size: 17px;
-  }
-
   .main {
     flex-wrap: wrap;
-  }
-
-  .personal_information_img {
-    padding: 0 20px;
   }
 
   .personal_information {
