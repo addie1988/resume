@@ -597,13 +597,6 @@ table {
   background-color: white;
   border: none;
 }
-
-@media screen and (max-width: 900px) {
-  .work_contwnt ul li {
-    margin: 10px
-  }
-}
-
 /* ---------------------------------------------------------------------------------------------------------------------- */
 
 /* cell_phone */
@@ -1258,7 +1251,7 @@ table {
 
   .work_experience_content {
     padding: var(--padding_min);
-    margin: 20px 0 20px 0;
+    margin: 40px 0 20px 0;
   }
 
   .work_experience_content ul li {

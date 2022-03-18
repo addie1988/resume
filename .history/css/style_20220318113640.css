@@ -137,7 +137,7 @@ table {
   --padding: 100px;
   --color: white;
   --title_h1: 30px;
-  --margin_Segmentation: 10px 0 0 0;
+  --margin_Segmentation: 40px 0 0 0;
   --padding_min: 0 20px;
   --padding-right: 40px;
   --padding-left: 40px;
@@ -561,7 +561,7 @@ table {
 /* work */
 .work {
   position: var(--position);
-  margin-top: 10px;
+  margin-top: 30px;
   padding-right: var(--padding-right);
 }
 
@@ -572,6 +572,7 @@ table {
 
 .work_contwnt ul li {
   margin-right: 10px;
+  margin: 10px;
   padding: 8px 20px;
   border: 2px solid white;
   border-radius: 40px;
@@ -597,13 +598,6 @@ table {
   background-color: white;
   border: none;
 }
-
-@media screen and (max-width: 900px) {
-  .work_contwnt ul li {
-    margin: 10px
-  }
-}
-
 /* ---------------------------------------------------------------------------------------------------------------------- */
 
 /* cell_phone */
@@ -1258,7 +1252,7 @@ table {
 
   .work_experience_content {
     padding: var(--padding_min);
-    margin: 20px 0 20px 0;
+    margin: 40px 0 20px 0;
   }
 
   .work_experience_content ul li {

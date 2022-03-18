@@ -1258,7 +1258,7 @@ table {
 
   .work_experience_content {
     padding: var(--padding_min);
-    margin: 20px 0 20px 0;
+    margin: 40px 0 20px 0;
   }
 
   .work_experience_content ul li {
